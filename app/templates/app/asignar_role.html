@@ -1,0 +1,253 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} Asignar Role {% endblock title %}
+
+{% block content %}
+  <div class="right_col" role="main">
+    <div class="">
+      <div class="page-title">
+        <div class="title_left">
+          <h3>Asignar Role </h3>
+        </div>
+
+        
+      <div class="clearfix"></div>
+      
+      
+        <div class="col-md-12 col-xs-12">
+          <div class="x_panel">
+            <div class="x_title">
+              <h2>Asignar Role <small>Sesion Asignar Roles</small></h2>
+              <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Settings 1</a>
+                    </li>
+                    <li><a href="#">Settings 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            
+                   <!-- Modal -->
+                  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">Buscar Equipo</h4>
+                        </div>
+                        <div class="modal-body">
+                          
+                          <form class="form-horizontal form-label-left input_mask">
+
+                            <div class="col-md-9 col-sm-9 col-xs-12 form-group has-feedback">
+                              <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Serial equipo">
+                              <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-xs-6 form-group has-feedback">
+                              <button type="button" class="btn btn-primary ">
+                                <span class="fa fa-search p-5">  Buscar</span>
+                              </button>
+                            </div>
+            
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="x_panel">
+                                <div class="x_title">
+                                  <h2>Equipos <small>Lista de equipos</small></h2>
+                                  <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                      <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Settings 1</a>
+                                        </li>
+                                        <li><a href="#">Settings 2</a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                  </ul>
+                                  <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                    
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th>#</th>
+                                        <th>Nombre</th>
+                                        <th>Marca</th>
+                                        <th>Tipo</th>
+                                        <th>Area</th>
+                                        <th>Piso</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Netgear Gs724tv2</td>
+                                        <td>Extreme Networks</td>
+                                        <td>Switch</td>
+                                        <td>Gerencia</td>
+                                        <td>A02</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Srx300-sys-jb</td>
+                                        <td>Juniper</td>
+                                        <td>Router</td>
+                                        <td>Finanzas</td>
+                                        <td>B02</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>CISCO2901/K9</td>
+                                        <td>Cisco</td>
+                                        <td>Router</td>
+                                        <td>Despacho</td>
+                                        <td>C02</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                    
+                                </div>
+                              </div>
+                            </div>
+            
+                            
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                          <button type="button" class="btn btn-primary">Seleccionar</button>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+              <form class="form-horizontal form-label-left input_mask">
+
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                  <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Id">
+                  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                  <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Nombre">
+                  <span class="fa fa-wifi form-control-feedback left" aria-hidden="true"></span>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                  <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Email">
+                  <span class="fa fa-bookmark form-control-feedback left" aria-hidden="true"></span>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                  <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Username">
+                  <span class="fa fa-bookmark form-control-feedback left" aria-hidden="true"></span>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                  <label for="exampleFormControlTextarea1">tipo de role</label>
+                   
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="x_panel">
+                      <div class="x_title">
+                        <h2>Role <small>Lista de roles</small></h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                          <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Settings 1</a>
+                              </li>
+                              <li><a href="#">Settings 2</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a class="close-link"><i class="fa fa-close"></i></a>
+                          </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+          
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Role</th>
+                              <th>Tipo</th>
+                              <th>Condición</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Administrado</td>
+                              <td>All</td>
+                              <td>dwrx</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Cliente</td>
+                              <td>All</td>
+                              <td>wrx</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Cliente -1</td>
+                              <td>Any</td>
+                              <td>wr</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>Cliente -2</td>
+                              <td>Any</td>
+                              <td>r</td>
+                            </tr>
+                          </tbody>
+                        </table>
+          
+                      </div>
+                    </div>
+                  </div>
+
+                 
+                  <div class="form-group">
+                    <div class="col-md-12 col-sm-12 col-xs-12 d-inline-flex flex-row-reverse p-2 bd-highligh">
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+
+              </form>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+          
+        </div>
+       
+      </div>
+     
+    </div>
+{% endblock content %}
