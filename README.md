@@ -29,9 +29,11 @@ Activar entorno virtual
 -------------
 
 ###Linux
+
 source env/bin/activate
 
 ###Windows
+
 env\Scripts\activate.bat
 
 Instalar módulos en el entorno virtual
@@ -48,6 +50,7 @@ python manage.py runserver 0.0.0.0:8000
 Ejecutar migración  base de datos
 -------------
 python manage.py makemigrations app
+
 python manage.py  migrate app
 
 Crear usuario administración
